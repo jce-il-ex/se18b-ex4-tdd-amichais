@@ -4,7 +4,7 @@
   "description": "Tdd exercise",
   "main": "index.js",
   "scripts": {
-    "test": "tape ./test/*.test.js"
+    "test": "istanbul cover tape ./test/*.test.js"
   },
   "repository": {
     "type": "git",
